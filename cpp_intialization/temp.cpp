@@ -6,7 +6,7 @@ int func(int x)
 }
 int main()
 {
-    int x(10);//(Value initialization)
+    int x(10); //(Direct initialization)
     int g{10}; //(Direct List Initialization)
     std::cout << "Hello";
 }
